@@ -1,0 +1,52 @@
+<html>
+   <head>
+      <script>
+         function jsonfrmHandler(){
+          window.jsonFrm.preventDefault;
+          alert('hello')
+         }
+      </script>
+   </head>
+   <body>
+      <h1>get method form data</h1>
+      <form action = "/myFrmData" method = "GET" name="process_get">
+         First Name: <input type = "text" name = "first_name">  <br>
+         Last Name: <input type = "text" name = "last_name">
+         <input type = "submit" value = "Submit">
+      </form>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+
+<hr/>
+      <h1>post method form data</h1>
+      <form action = "/myPost" method = "POST" name="process_post">
+         First Name: <input type = "text" name = "first_name">  <br>
+         Last Name: <input type = "text" name = "last_name">
+         <input type = "submit" value = "Submit">
+      </form>
+      <hr/>
+      <h1>sending data in json object</h1>
+      <form action ="/jsonFrm" method = "POST" name="jsonFrm">
+         First Name: <input type = "text" name = "json_fname">  <br>
+         Last Name: <input type = "text" name = "json_lname">
+         <input type = "submit" value = "Submit" onclick="jsonfrmHandler()">
+      </form> -->
